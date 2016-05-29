@@ -1,0 +1,37 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+
+ko:
+  first_name_label: "이름:"
+  first_name_placeholder: "이름"
+  last_name_label: "성:"
+  last_name_placeholder: "성"
+  email_label: "이메일 주소:"
+  email_placeholder: "이메일 주소"
+  password_label: "암호:"
+  password_placeholder: "암호"
+  get_beta_access: "베타 프로그램에 신청하기"
+  message_invalid_password: "암호가 틀렸습니다. 앱 주인한테 연락하십시오."
+  message_demo_page: "데모 페이지입니다. 이 페이지에 TestFlight 이메일에 대한 글이 나오겠습니다."
+  message_success_live: "베타 프로그램에 가입이 완료되었습니다. 이메일 확인해 주십시오."
+  message_success_pending: "베타 프로그램에 가입이 완료되었습니다. 앱의 새로운 버전이 출시될 때에 알려 드리겠습니다."
+  message_email_exists: "이미 등록된 이메일 주소"
+  message_error: "오류가 발생했습니다"
